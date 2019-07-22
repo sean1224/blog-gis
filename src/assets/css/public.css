@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/*start 2017-04重置样式*/
+
+body {
+    margin: 0;
+    font-style: normal;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    color: #565656;
+    background-color: #E9ECF3;
+    /*overflow-y: hidden;*/
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #565656;
+    text-decoration: none;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+
+a:focus {
+    outline: none;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+dl,
+dd,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+input,
+textarea,
+button {
+    outline: none;
+}
+
+input,
+button {
+    padding: 0;
+}
+
+i {
+    font-style: normal;
+}
+
+
+/*end 2017-04重置样式*/
+
+
+/*start 2017-04公共样式*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    /* 触发 hasLayout */
+    zoom: 1;
+}
+
+::-moz-selection {
+    background-color: #03b8cc;
+    color: #fff;
+}
+
+::selection {
+    background-color: #03b8cc;
+    color: #fff;
+}
+
+
+/*end 2017-04公共样式*/
