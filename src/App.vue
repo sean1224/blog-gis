@@ -12,7 +12,8 @@ export default {
 
 <style>
 @import url('./assets/css/public.css');
-@import url('http://localhost:8080/arcgis_js_api/library/4.10/esri/themes/light/main.css');
+/* @import url('http://localhost:8080/arcgis_js_api/library/4.10/esri/themes/light/main.css'); */
+@import url('http://localhost/arcgis_js_api/library/4.11/esri/themes/light/main.css');
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
